@@ -1,0 +1,33 @@
+{
+  "name": "iaematt/blank-php",
+  "description": "Config. default PHP project.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus Bastos",
+      "email": "matheusbastos@outlook.com",
+      "role": "Developer",
+      "homepage": "https://devbsb.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.2",
+    "coffeecode/router": "1.0.*",
+    "coffeecode/paginator": "1.0.*",
+    "coffeecode/uploader": "1.0.*",
+    "league/plates": "v4.0.0-alpha",
+    "phpmailer/phpmailer": "6.0.*"
+  }
+}
